@@ -38,3 +38,4 @@
 3. The results will be in folder `c:\output\output_yyyymmmdddhhmmss.csv`
 3. If input and output folders different from default. Please change `-v d:/input_folder:/input` `-v d:/output_folder/:output`.
 4. Change other dac4tb version from `asia.gcr.io/thaihealthai/dac4tb:blm_2_t_mn-1.0.0`
+5. Easy way to predict is double click `predict.cmd`

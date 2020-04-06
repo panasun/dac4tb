@@ -169,7 +169,8 @@ with tf.device('/cpu:0'):
 
 currentDT = datetime.datetime.now()
 currentDT = currentDT.strftime("%Y%m%d%H%M%S")
-f = open("output/output_" + currentDT + ".csv", "w")
+outputFile = "output/output_" + currentDT + ".csv"
+f = open(outputFile, "w")
 
 
 # In[236]:
@@ -227,5 +228,5 @@ f.close()
 # In[ ]:
 
 
-
+print("OUTPUT FILE: " + outputFile)
 

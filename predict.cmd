@@ -1,0 +1,1 @@
+docker run -v c:/input:/input -v c:/output:/output -it asia.gcr.io/thaihealthai/dac4tb:blm_2_t_mn-1.0.0 python predict.py
