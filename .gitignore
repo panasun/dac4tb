@@ -1,3 +1,5 @@
-/Dataset/**
+**/Dataset/**
 **/.ipynb_checkpoints/**
-output.csv
+**/input/**
+**/output/**
+**/saved_model/**
