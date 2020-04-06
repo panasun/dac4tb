@@ -31,9 +31,10 @@
 5. Create input and output folders in `C:\input` and `C:\output`
 
 ### Run Prediction
-1. Copy images that want to labels into `C:\input\000xxxx.jpg`.<br>
+1. Copy images that want to labels into `c:\input\000xxxx.jpg`.<br>
   Only *.jpg is allow.
 2. Open Command Prompt then run these command.<br>
   `docker run -v c:/input:/input -v c:/output:/output -it asia.gcr.io/thaihealthai/dac4tb:blm_2_t_mn-1.0.0 python predict.py`
+3. The results will be in folder `c:\output\output_yyyymmmdddhhmmss.csv`
 3. If input and output folders different from default. Please change `-v d:/input_folder:/input` `-v d:/output_folder/:output`.
 4. Change other dac4tb version from `asia.gcr.io/thaihealthai/dac4tb:blm_2_t_mn-1.0.0`
